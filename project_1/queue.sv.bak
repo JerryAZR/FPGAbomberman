@@ -1,0 +1,10 @@
+module queue #(parameter int ADDR_WIDTH = 10,DATA_WIDTH = 9)
+(
+	input logic [DATA_WIDTH-1:0] in,
+	input logic we, Clk, Reset,
+	output logic [DATA_WIDTH-1:0] out,
+);
+
+	logic [DATA_WIDTH-1:0] 
+
+endmodule

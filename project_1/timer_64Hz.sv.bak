@@ -1,0 +1,10 @@
+module timer_64Hz (
+	input logic Clk,
+	output logic [9:0] timer
+);
+
+always_ff begin
+	timer = timer + 10'd1;
+end
+
+endmodule

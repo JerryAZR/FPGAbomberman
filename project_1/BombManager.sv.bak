@@ -1,0 +1,6 @@
+module BombManager (
+	input logic Clk,
+	input logic 
+);
+
+endmodule

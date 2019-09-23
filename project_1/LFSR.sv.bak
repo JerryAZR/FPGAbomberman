@@ -1,0 +1,10 @@
+module LFSR (
+	input logic Clk, Reset,
+	output logic [15:0] randint
+);
+	logic feedback;
+	
+	assign feedback = randint[15] ^ randint[12] ^ randint [6] ^ randint[2];
+
+
+endmodule

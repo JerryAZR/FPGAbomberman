@@ -1,0 +1,25 @@
+/* Notes:
+	time unit : 10'h010 = 1 second; 10'h008 = 0.5 second; ......
+  more outputs can be added if necessary, and not all outputs have to be used;
+  For unused outputs, set the values to a constant;
+*/
+
+/*
+Default / Initial values:
+
+	step = 10'd2;
+  size = 2'b00; // (total width & height = 3 blocks)
+  delay = 10'h030; // (3 seconds)
+	cooldown = 10'h018; // (1.5s)
+*/
+module buff (
+  input logic Clk, Reset, player, // player value is used to determine if an item can be picked up. (0 - P1; 1 - P2)
+  input logic [7:0] id, 
+  output logic WE, // set to 1 when an item is picked up
+  output logic [9:0] step, // character move speed
+  output logic [1:0] size, // bomb explosion size
+  output logic [9:0] delay, // time before explosion
+  output logic [9:0] cooldown // time before the second bomb can be placed after the first one
+);
+  
+endmodule

@@ -1,0 +1,7 @@
+module ScoreBoard (
+	input logic Clk, Reset, 
+	input logic p1gain, p2gain,
+	output logic [7:0] p1score, p2score
+);
+
+endmodule

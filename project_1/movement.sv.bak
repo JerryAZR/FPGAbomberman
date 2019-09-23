@@ -1,0 +1,7 @@
+module movement (
+	input logic [15:0] keyA, keyB, keyC,
+	output logic [7:0] p1move, p2move,
+	output logic p1bomb, p2bomb
+);
+
+endmodule

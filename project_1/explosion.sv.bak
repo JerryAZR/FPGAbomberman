@@ -1,0 +1,79 @@
+/*
+main inputs:
+trigger: default is 0, set to 1 to indicate start of explosion
+bomb coordinates and explosion range:
+
+*/
+Map[Y[3:0]][X[3:0]]
+
+Draw at bomb location;
+store current location as x, y;
+set counter (reg) to explosion range;
+
+UP:
+1.
+	x-=1
+	go to Map[y,x], check Item ID
+2.1 if ID == path:
+  set WE, addr, data,
+  decrement counter
+  if counter > 0 goto UP else goto Next
+2.2 if ID == fake_wall:
+  set WE, addr, data;
+	goto Next
+2.3 if ID == Wall goto Next;
+
+store necessary values to make recover easier
+
+after 1s : Recover
+
+  module explosion (
+  								input logic Clk, Reset, WE_IN,
+    							input logic [1:0] length,
+   								input logic [7:0] Data_IN, coordinate ,
+    							output logic WE_OUT,
+    							output logic [7:0] Data_OUT, Address
+  )
+    logic [1:0] count, count_next;
+    logic [7:0] temp, addr_next;
+    enum logic [7:0] {} state, next;
+    //assign length = 1'b0; // for test
+    parameter wall = 8'h00;
+    parameter path = 8'h80;
+    parameter wood = 8'h10;
+    parameter explosion = 8'h40;
+
+    always_ff @(posedge clk) begin
+      state <= next;
+      count <= count_next;
+      Address <= addr_next;
+    end
+
+
+       always_comb   begin
+        // assign default later
+        // up
+         count = length;
+         temp = coordinate;
+         //原地
+         if (Data_IN != explosion) begin
+         WE_OUT = 1;
+         DATA_OUT = explosion;
+         Address = coordinate;
+         end
+         //上
+         else if (Data_IN = wall) begin
+           WE_OUT = 0;
+           Address = coo
+         end
+
+      end
+
+
+
+    endmodule
+
+  always_ff begin
+    if(Reset) counter <= (Reset_value);
+    else count <= count - 1'b1;
+  end

@@ -1,0 +1,1088 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Jerry/UIUC/ECE385/Final/project/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1554783575
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IXA;aQT>KXb_JBloTUTzK81
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1554768057
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1554783575.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work nios_system
+Z8 !s92 -vlog01compat -work nios_system +incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_reset_controller
+Z10 !s110 1554783574
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IbDRPGd9M>]3aC<=1j>7jO2
+R2
+R0
+Z11 w1554768052
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_controller.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+Z12 !s108 1554783574.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R10
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+Iz<GXmBAoBBb]XigGmUeRD3
+R2
+R0
+R11
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+vnios_system
+!s110 1554783573
+!i10b 1
+!s100 Xzc1U0384h^RgH:JBI;cX3
+Ig?[JW6jhbXR>TSfL?Sh;Y1
+R2
+R0
+w1554768027
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/nios_system.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/nios_system.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1554783573.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/nios_system.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/nios_system.v|
+!i113 1
+R7
+!s92 -vlog01compat -work nios_system +incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis
+R9
+vnios_system_jtag_uart_0
+Z13 !s110 1554783581
+!i10b 1
+!s100 Fm>ZJdEGihkV`?f6BLz:H0
+IQDO3ADKe<YzkIPTAdki_e2
+R2
+R0
+Z14 w1554768029
+Z15 8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+Z16 FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+Z17 !s108 1554783580.000000
+Z18 !s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v|
+Z19 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_scfifo_r
+R13
+!i10b 1
+!s100 47KZM;KA2nU8Ze;ai4g7l3
+IbY<_I>9IQ3M=B^QKZ2n3f0
+R2
+R0
+R14
+R15
+R16
+L0 243
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_scfifo_w
+R13
+!i10b 1
+!s100 5`B6]mFoZZhff:NBY<]Fk2
+IhSC5A2>P=64_RRl>JeNIK0
+R2
+R0
+R14
+R15
+R16
+L0 78
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_sim_scfifo_r
+R13
+!i10b 1
+!s100 YkRUSd:;8GKW7U=PAIGm80
+IJhD4oWeG6f>`<;fjFd@Hb0
+R2
+R0
+R14
+R15
+R16
+L0 164
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vnios_system_jtag_uart_0_sim_scfifo_w
+R13
+!i10b 1
+!s100 XFzYcMA6@JMe5hE`VK9ci3
+IoQ;e0WA:>XVH<g72iNIH00
+R2
+R0
+R14
+R15
+R16
+R4
+R5
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vnios_system_keycode
+Z20 !s110 1554783580
+!i10b 1
+!s100 I0Q3OSjKz8f`3_>zUBRg83
+I;D=8A_R30YN?IA:7S2;UF3
+R2
+R0
+Z21 w1554768030
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_keycode.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_keycode.v
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_keycode.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_keycode.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_mm_interconnect_0
+R1
+!i10b 1
+!s100 P[zAadhETcTQVU@mP>U7`0
+ImSU58oD2KP8laEM:`Tz[F1
+R2
+R0
+R11
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_mm_interconnect_0_avalon_st_adapter
+R1
+!i10b 1
+!s100 FUH8SkjOaZNIW4`TjL<CB2
+I@V:?@z7]SkX5j@8>aGINL1
+R2
+R0
+w1554768058
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0
+Z22 !s110 1554783578
+!i10b 1
+!s100 UdX8`PhA@Q@bDCgPEKjoT0
+I7M;cehP2FQ`PUFnU5DZ483
+R2
+R0
+R21
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+Z23 !s108 1554783578.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu
+R22
+!i10b 1
+!s100 DVQnS];1FPe1GgRQ1U]=X2
+I][PDYooPiA[F;n8Hfg5V73
+R2
+R0
+R3
+Z24 8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v
+Z25 FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v
+L0 2834
+R5
+r1
+!s85 0
+31
+R23
+Z26 !s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v|
+Z27 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_debug_slave_sysclk
+Z28 !s110 1554783579
+!i10b 1
+!s100 lddF<iT4]ob]jOhjW7a770
+I:[i8PV65e6jfH`zlE7k<<1
+R2
+R0
+R3
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+Z29 !s108 1554783579.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_debug_slave_tck
+R28
+!i10b 1
+!s100 G05UPZ[hUWXgI]]0_E:;V0
+I=IKj<I^dz?ITRM4D9>lXY0
+R2
+R0
+R3
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_tck.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_debug_slave_wrapper
+R28
+!i10b 1
+!s100 PQ<aWHFc5`^3>WjSV=oM70
+Ih?2I7B[M@_mBDiQlS>_5C0
+R2
+R0
+R3
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_avalon_reg
+R22
+!i10b 1
+!s100 ]bPGADJ]U?zVg9HKIcSM<1
+IXJ2:@ODG<bi5P>93?coOA1
+R2
+R0
+R3
+R24
+R25
+L0 2023
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci
+R22
+!i10b 1
+!s100 G06;U7ehf=Q^=<XdjR2M>0
+IjQlTJ09hD<aTKVk:NTM6;2
+R2
+R0
+R3
+R24
+R25
+L0 2362
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_break
+R22
+!i10b 1
+!s100 80B>0i:EiBd:UUF8YJ4S]2
+I`hRl<Q5Dm>2g5aFd_Vno03
+R2
+R0
+R3
+R24
+R25
+L0 295
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
+R22
+!i10b 1
+!s100 ca@:;CFJ>13f7=8mhdb^]2
+I6Bdn8HN:Ii4?CCDjUZ;QV3
+R2
+R0
+R3
+R24
+R25
+L0 1265
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_dbrk
+R22
+!i10b 1
+!s100 1DmgzmJOaC;GcAjB<5i_K2
+Iol84JXIGS1z0z647GjR2V2
+R2
+R0
+R3
+R24
+R25
+L0 795
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_debug
+R22
+!i10b 1
+!s100 LmBmnklWB6[g0KNCDfiea1
+IE28kd5aIk<:9lLSO:4:Wf3
+R2
+R0
+R3
+R24
+R25
+L0 153
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_dtrace
+R22
+!i10b 1
+!s100 _3Oi_9Z1QM7E]^gU@:BgO2
+I906N;FBhnzBcYflHkO3?T0
+R2
+R0
+R3
+R24
+R25
+L0 1183
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_fifo
+R22
+!i10b 1
+!s100 RC2Cgj?EDn7TO?gSX?>E:0
+IjR3mQn]aRg13CkDG7lF@C2
+R2
+R0
+R3
+R24
+R25
+L0 1427
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
+R22
+!i10b 1
+!s100 X3G]dDNjgo18H:OO;c3nm3
+I;9PVXN=dQ_8J?Y7Qf:[1e1
+R2
+R0
+R3
+R24
+R25
+L0 1380
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
+R22
+!i10b 1
+!s100 :a=RQOk:@]98Tn`nA@HZT3
+I9]HKjXZ?Rc8]B4cSG0gNW0
+R2
+R0
+R3
+R24
+R25
+L0 1337
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_im
+R22
+!i10b 1
+!s100 Sl<jo]R]TYfHa`AFFoj370
+I<1Vm0bc>^Jbm6bknCEWJJ2
+R2
+R0
+R3
+R24
+R25
+L0 1936
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_itrace
+R22
+!i10b 1
+!s100 KemlV>eZSiE7?JPo6CiTg0
+ITbY@MNcg<H]dhHmHMKlZ42
+R2
+R0
+R3
+R24
+R25
+L0 982
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_pib
+R22
+!i10b 1
+!s100 VHLkZSTVbLJl4jNhi>kk>3
+I8[CgZJnkHRPj2l1A4:fkG2
+R2
+R0
+R3
+R24
+R25
+L0 1913
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_td_mode
+R22
+!i10b 1
+!s100 Fc7=;IjO2UQc9On]U6F9z1
+IZz1zEi93<BoW27Md8^]651
+R2
+R0
+R3
+R24
+R25
+L0 1115
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_oci_xbrk
+R22
+!i10b 1
+!s100 :22;[JlKFZcCT>=PNA1?U0
+I6bdHMTJfd?7`[o=h]zfPV0
+R2
+R0
+R3
+R24
+R25
+L0 588
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_ocimem
+R22
+!i10b 1
+!s100 ^YWH8>7gEZoVAHUc623V:1
+IaOnVS3cVG;KELU?Yb?T4h3
+R2
+R0
+R3
+R24
+R25
+L0 2181
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_nios2_performance_monitors
+R22
+!i10b 1
+!s100 _5Q0GnXJ<AUEFPEd<3G6D3
+IDki0WnDdfQDojQJ?TZB1[2
+R2
+R0
+R3
+R24
+R25
+L0 2006
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_ociram_sp_ram_module
+R22
+!i10b 1
+!s100 =<O3ITm^4VBF?gQjFNh771
+I_XzM4GPD;e=Uz1Im?37IA3
+R2
+R0
+R3
+R24
+R25
+L0 2116
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_register_bank_a_module
+R22
+!i10b 1
+!s100 J^SfTJNm?64YM4F7>?l>[3
+IOE:o>7?VzN4cVP^[jHeMh3
+R2
+R0
+R3
+R24
+R25
+R4
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_register_bank_b_module
+R22
+!i10b 1
+!s100 VUS3PCAEGI:FX7QChh0l93
+IZLY5nmhlFUGhS>4jHY6Z70
+R2
+R0
+R3
+R24
+R25
+L0 87
+R5
+r1
+!s85 0
+31
+R23
+R26
+R27
+!i113 1
+R7
+R8
+R9
+vnios_system_nios2_gen2_0_cpu_test_bench
+R20
+!i10b 1
+!s100 H18<]X1W`DJa:g75kGC7G3
+I?mk_X9OJ4JVmEAhD8RQ><1
+R2
+R0
+R3
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R17
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu_test_bench.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_onchip_memory2_0
+Z30 !s110 1554783577
+!i10b 1
+!s100 WjjaoT_C?nZ6En9d[O:eI1
+I23_fXXkfh:RR`YMQc_zK>0
+R2
+R0
+Z31 w1554768031
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+Z32 !s108 1554783577.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_otg_hpi_address
+R30
+!i10b 1
+!s100 bTXIzgB]o54D:HkPQLUo?2
+I5V<]?T@YThBmB[@F44joj2
+R2
+R0
+R31
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_address.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_address.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_address.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_address.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_otg_hpi_cs
+R30
+!i10b 1
+!s100 YYSkz:5oSEAN[le9O[Q323
+IEB]FC@D9^@EUhRU>FmK<h2
+R2
+R0
+R31
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_cs.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_cs.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_cs.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_cs.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_otg_hpi_data
+Z33 !s110 1554783576
+!i10b 1
+!s100 Ril`EEbRDL:K2D;g<9Ic@2
+ITLE0LYnRWD;b<9Kj_K2>l1
+R2
+R0
+R31
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_data.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_data.v
+R4
+R5
+r1
+!s85 0
+31
+Z34 !s108 1554783576.000000
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_otg_hpi_data.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram
+R33
+!i10b 1
+!s100 O8C5Y`^NhFE8=PLLYI]9:2
+I:JR3B`cGj>_OIEPEDnjSF0
+R2
+R0
+Z35 w1554768032
+Z36 8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram.v
+Z37 FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R34
+Z38 !s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram.v|
+Z39 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_input_efifo_module
+R33
+!i10b 1
+!s100 ZzkTf^MmN1caH>`O<UBod3
+ITl[ZY<IR=nnS_>^bgY2U]3
+R2
+R0
+R35
+R36
+R37
+R4
+R5
+r1
+!s85 0
+31
+R34
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll
+R33
+!i10b 1
+!s100 m?T[U;U154IRTXjB>49HK0
+IQ4Wf0^4BjA<EHC=@kD6UX0
+R2
+R0
+Z40 w1554768035
+Z41 8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram_pll.v
+Z42 FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram_pll.v
+L0 221
+R5
+r1
+!s85 0
+31
+R34
+Z43 !s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram_pll.v|
+Z44 !s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll_altpll_sbh2
+R33
+!i10b 1
+!s100 5H9HA[iMiR2jJ@0[CYZRO2
+IMJ@_GW]M?I@;aYAeoTGV93
+R2
+R0
+R40
+R41
+R42
+L0 130
+R5
+r1
+!s85 0
+31
+R34
+R43
+R44
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll_dffpipe_l2c
+R33
+!i10b 1
+!s100 _n_B8]=EeDCO5ZYUFB5MQ1
+In[VGWzhX>lMRTbLnTZk<:0
+R2
+R0
+R40
+R41
+R42
+L0 37
+R5
+r1
+!s85 0
+31
+R34
+R43
+R44
+!i113 1
+R7
+R8
+R9
+vnios_system_sdram_pll_stdsync_sv6
+R33
+!i10b 1
+!s100 9<AK0>a0]bcz:GIa>e[af2
+I>ZCHn_h`PZKIQX??BUgzk1
+R2
+R0
+R40
+R41
+R42
+L0 98
+R5
+r1
+!s85 0
+31
+R34
+R43
+R44
+!i113 1
+R7
+R8
+R9
+vnios_system_sysid_qsys_0
+R33
+!i10b 1
+!s100 UQKg^IBiTQ`aLdmC5bY4c2
+IOA2IbhV0hKL8DJ7A25QCE1
+R2
+R0
+R40
+8C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v
+FC:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v
+L0 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|nios_system|+incdir+C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules|C:/Jerry/UIUC/ECE385/Final/project/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9

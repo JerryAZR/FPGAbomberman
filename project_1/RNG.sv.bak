@@ -1,0 +1,29 @@
+module RandomNumberGenerator (
+	input logic Clk,
+  input logic [15:0] a, b, c, d, // add more if necessary
+  output logic [15:0] randint
+);
+  logic [15:0] rand_next, w, x, y, z, wn, xn, yn, zn; // add more if necessary
+  
+  always_ff @(posedge Clk) begin
+    randint <= rand_next;
+    w <= wn;
+    x <= xn;
+    y <= yn;
+    z <= zn;
+  end
+  
+  always_comb begin
+    // default values：
+    rand_next = {randint[7] ^ randint[0], y[7:1] ^ z[7:1] ^ randint[7:1]};
+    wn = {w[7] ^ w[1], randint[6:0] ^ x[7:1] ^ a[7:1]};
+    xn = {x[1] ^ x[6], w[7:1] ^ y[7:1] ^ b[6:0]};
+    yn = {y[2] ^ y[5], x[7:1] ^ z[7:1] ^ c[7:1]};
+    zn = {z[3] ^ z[4], x[7:1] ^ y[7:1] ^ d[6:0]};
+    
+    xn[3] = ~(y[2] ^ x[0]);
+    yn[6] = a[7] ^ b[7];
+  end
+  
+  
+endmodule

@@ -1,0 +1,14 @@
+module testbench();
+
+
+timeunit 10ns;
+timeprecision 1ns;
+
+//logic [7:0] in;
+//logic we, Clk, Reset, next;
+//logic [7:0] out;
+//logic empty, full;
+//	
+//queue testunit(.*);
+
+endmodule
